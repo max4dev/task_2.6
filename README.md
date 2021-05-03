@@ -17,7 +17,7 @@ public class Main {
         if (a%b == 0) {
             System.out.println("Делится!");
         } else {
-            System.out.println("Не делится. Остаток деления - " + a % b);
+            System.out.println("Не делится. Остаток деления - " + "%.2f", a % b);
         }
     }
 }
